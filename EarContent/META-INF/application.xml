@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" id="Application_ID" version="7">
+  <display-name>ec.edu.uce.controlAsistencia.ear</display-name>
+  <module>
+    <ejb>ec.edu.uce.controlAsistencia.ejb.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>ec.edu.uce.controlAsistencia.jsf.war</web-uri>
+      <context-root>ec.edu.uce.controlAsistencia.jsf</context-root>
+    </web>
+  </module>
+  <module>
+    <java>javassist-3.22.0-GA.jar</java>
+  </module>
+  <module>
+    <java>jandex-2.0.4.Final.jar</java>
+  </module>
+  <module>
+    <java>hibernate-commons-annotations-5.0.2.Final.jar</java>
+  </module>
+  <module>
+    <java>hibernate-core-5.2.13.Final.jar</java>
+  </module>
+</application>

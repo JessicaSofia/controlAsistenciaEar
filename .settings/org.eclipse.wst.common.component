@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ec.edu.uce.controlAsistencia.ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ec.edu.uce.controlAsistencia.ejb.jar" deploy-path="/" handle="module:/resource/ec.edu.uce.controlAsistencia.ejb/ec.edu.uce.controlAsistencia.ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ec.edu.uce.controlAsistencia.jsf.war" deploy-path="/" handle="module:/resource/ec.edu.uce.controlAsistencia.jsf/ec.edu.uce.controlAsistencia.jsf">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ec.edu.uce.controlAsistencia.jpa.jar" deploy-path="/lib" handle="module:/resource/ec.edu.uce.controlAsistencia.jpa/ec.edu.uce.controlAsistencia.jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-3.3.2.Final.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/jboss-logging-3.3.2.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-annotations-2.1.0.Final.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/jboss-logging-annotations-2.1.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.22.0-GA.jar" deploy-path="/" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/javassist-3.22.0-GA.jar">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jandex-2.0.4.Final.jar" deploy-path="/" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/jandex-2.0.4.Final.jar">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.1-api-1.0.2.Final.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/hibernate-jpa-2.1-api-1.0.2.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations-5.0.2.Final.jar" deploy-path="/" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/hibernate-commons-annotations-5.0.2.Final.jar">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-core-5.2.13.Final.jar" deploy-path="/" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/hibernate-core-5.2.13.Final.jar">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/aopalliance-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-web-3.2.5.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-security-web-3.2.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-core-3.2.5.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-security-core-3.2.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.1.4.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-context-4.1.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-config-3.2.5.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-security-config-3.2.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.1.4.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-web-4.1.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.1.4.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-expression-4.1.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-transaction-api_1.2_spec-1.1.1.Final.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/jboss-transaction-api_1.2_spec-1.1.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.7.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/hibernate/antlr-2.7.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.1.4.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-beans-4.1.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.1.4.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-aop-4.1.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.3.14.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-core-4.3.14.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
