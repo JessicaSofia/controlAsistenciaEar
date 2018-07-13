@@ -22,4 +22,10 @@
   <module>
     <java>hibernate-core-5.2.13.Final.jar</java>
   </module>
+  <module>
+    <java>iText-2.1.7.js2.jar</java>
+  </module>
+  <module>
+    <java>groovy-all-2.0.1.jar</java>
+  </module>
 </application>

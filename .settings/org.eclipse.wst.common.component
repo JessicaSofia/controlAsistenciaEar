@@ -73,5 +73,37 @@
         <dependent-module archiveName="spring-core-4.3.14.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/springSecurity/spring-core-4.3.14.RELEASE.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="commons-digester-2.1.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/commons-digester-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/commons-logging-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.8.2.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/commons-beanutils-1.8.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="iText-2.1.7.js2.jar" deploy-path="/" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/iText-2.1.7.js2.jar">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="png-encoder-1.5.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/png-encoder-1.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-3.7-20101029.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/poi-3.7-20101029.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="groovy-all-2.0.1.jar" deploy-path="/" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/groovy-all-2.0.1.jar">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.1.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/commons-collections-3.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-5.5.0.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/jasperreports-5.5.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-javaflow-20060411.jar" deploy-path="/lib" handle="module:/classpath/lib/ec.edu.uce.controlAsistencia.ear/librerias/ireports/commons-javaflow-20060411.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
